@@ -1,0 +1,114 @@
+/* Custom Posts Frontend Styles */
+.cps-featured-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.cps-featured-post {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background: #fff;
+}
+
+.cps-featured-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.cps-featured-post .post-thumbnail {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cps-featured-post .post-thumbnail img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.cps-featured-post:hover .post-thumbnail img {
+    transform: scale(1.05);
+}
+
+.cps-category-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.cps-category-list li a {
+    display: block;
+    padding: 8px 15px;
+    background: #f5f5f5;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.cps-category-list li a:hover {
+    background: #e0e0e0;
+    color: #000;
+}
+
+/* Archive Grid */
+.cps-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.cps-post-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.cps-post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.cps-post-card .post-thumbnail img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cps-post-card .card-content {
+    padding: 20px;
+}
+
+.cps-post-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.4em;
+}
+
+.cps-post-card .subtitle {
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 15px;
+}
+
+.cps-post-card .post-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    font-size: 0.85em;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
+    margin-top: 15px;
+}

@@ -1,0 +1,43 @@
+/* Admin Styles */
+.cps-meta-field {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.cps-meta-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.cps-meta-field input[type="text"] {
+    width: 100%;
+    max-width: 600px;
+    padding: 8px;
+}
+
+.cps-meta-field input[type="number"] {
+    width: 80px;
+    padding: 8px;
+}
+
+/* Admin Columns */
+.fixed .column-featured {
+    width: 80px;
+    text-align: center;
+}
+
+.fixed .column-priority {
+    width: 100px;
+}
+
+.column-featured .dashicons-star-filled {
+    color: #ffb900;
+    font-size: 20px;
+}
+
+/* Category Filter */
+#custom_category {
+    margin-left: 10px;
+}

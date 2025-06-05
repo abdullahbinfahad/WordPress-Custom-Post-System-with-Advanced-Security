@@ -1,0 +1,23 @@
+custom-post-system/
+├── assets/
+│   ├── css/
+│   │   ├── frontend.css
+│   │   └── admin.css
+│   └── js/
+│       ├── admin.js
+│       └── frontend.js
+├── includes/
+│   ├── post-type.php
+│   ├── taxonomy.php
+│   ├── meta-boxes.php
+│   ├── shortcodes.php
+│   ├── admin-columns.php
+│   ├── template-functions.php
+│   └── query-filters.php
+├── templates/
+│   ├── single-custom_post.php
+│   ├── archive-custom_post.php
+│   └── taxonomy-custom_category.php
+├── languages/ (for translation files)
+├── index.php (security file)
+└── custom-post-system.php (main plugin file)

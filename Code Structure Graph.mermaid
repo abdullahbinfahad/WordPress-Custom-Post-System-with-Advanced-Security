@@ -1,0 +1,22 @@
+graph TD
+    A[Main Plugin File] --> B[Post Type Registration]
+    A --> C[Taxonomy Registration]
+    A --> D[Meta Boxes]
+    A --> E[Shortcodes]
+    A --> F[Admin Columns]
+    A --> G[Template Loader]
+    A --> H[Assets]
+    
+    B --> I[Custom Post Type]
+    C --> J[Custom Taxonomy]
+    D --> K[Subtitle Field]
+    D --> L[Featured Post Toggle]
+    E --> M[Featured Posts Shortcode]
+    F --> N[Admin List Customization]
+    G --> O[Theme Templates]
+    G --> P[Plugin Templates]
+    H --> Q[CSS/JS Assets]
+    
+    I --> R[single-custom_post.php]
+    I --> S[archive-custom_post.php]
+    J --> T[taxonomy-custom_category.php]
